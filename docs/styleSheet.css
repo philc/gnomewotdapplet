@@ -1,0 +1,31 @@
+body{
+	background-color: #d9e8d9;
+	margin: 0px;
+}
+
+.content{
+	margin:5px;
+}
+
+.header{
+	border-bottom: thin solid #000000;
+	background-color: #c8d2c9;
+	
+}
+
+.footer{
+	border-top: thin solid #000000;
+
+	text-align: center;
+	text-size: x-small;
+}
+
+.menu{
+	text-align: center;
+}
+
+.code{
+	background-color: #d4d4d4;
+	font-family: monospace, "courier new";
+	margin-left: 10px;
+}
