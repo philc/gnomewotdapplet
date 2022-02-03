@@ -1,84 +1,89 @@
 body{
-	/* background-color: #e5eeeb;*/
-	background-color:#DDDDDD;
-	margin-left: auto;
-	margin-right: auto;	
-	padding:0px;
-	font: 1.0em Sans, arial, helvetica;
-	/* IE block level content centering workaround*/
-	text-align:center;
+  /* background-color: #e5eeeb;*/
+  background-color:#DDDDDD;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0px;
+  font: 1.0em Sans, arial, helvetica;
+  /* IE block level content centering workaround*/
+  text-align:center;
 }
 
 a{
-	color:#fec42b
+  color:#fec42b
 }
 
 
 
 .body{
 
-	margin:0px;
-	padding:10px;
+  margin:0px;
+  padding:10px;
 
 }
 .background-upper-left{
-	background-color:white;
-	background-image:url(images/bgul.png);
-	background-repeat:no-repeat;
-	border: thin solid black;
-	margin:0px;
-	margin-left:auto;
-	margin-right:auto;
+  background-color:white;
+  background-image:url(images/bgul.png);
+  background-repeat:no-repeat;
+  border: thin solid black;
+  margin:0px;
+  margin-left:auto;
+  margin-right:auto;
 
-	max-width: 780px;
-	padding:0px;
-	text-align:left;
+  max-width: 780px;
+  padding:0px;
+  text-align:left;
 
-	/* IE 5 & 6 max-width bastardization */
-	width:expression( 
-	    document.body.clientWidth > (750) ?
-	        "750":
-	        "auto" );
+  /* IE 5 & 6 max-width bastardization */
+  width:expression(
+      document.body.clientWidth > (750) ?
+          "750":
+          "auto" );
 }
 .background-lower-right{
-	background:url(images/bglr.png) bottom right no-repeat;
+  background:url(images/bglr.png) bottom right no-repeat;
 
-	display:compact;
-	padding:0px;
-	margin:0px;
+  display:compact;
+  padding:0px;
+  margin:0px;
 }
 
 a{
-	text-decoration:none;
-	color: 357f64;
+  text-decoration:none;
+  color: 357f64;
 }
 a#hover{
-	color: black;
+  color: black;
 }
 h1,h2,h3,h4,h5,h6{
 
 }
 
 .header h1{
-	font-size: 30pt;
-	margin-bottom:0px;
+  font-size: 30pt;
+  margin-bottom:0px;
 
 }
 
 .code{
-	/*background-color: #d4d4d4;*/
-	font-family: monospace, "courier new";
-	/*margin-left: 10px;*/
+  /*background-color: #d4d4d4;*/
+  font-family: monospace, "courier new";
+  /*margin-left: 10px;*/
 }
 
 .imgboxright{
-	float:right;
-	margin-left:10px;
-	text-align:center;
+  float:right;
+  margin-left:10px;
+  text-align:center;
 }
 
 .imgboxleft{
-	float:left;
-	margin-right:10px;
+  float:left;
+  margin-right:10px;
 
+}
+
+#footer {
+  padding: 6px;
+  text-align: center;
 }
