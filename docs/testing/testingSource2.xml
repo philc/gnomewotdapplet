@@ -1,0 +1,21 @@
+<rss version="2.0">
+<channel>
+<title>Wordsmith.org: Today's Word</title>
+<link>http://wordsmith.org/</link>
+<copyright>Copyright 1994-2005 Anu Garg</copyright>
+<description>
+The magic of words - that's what Wordsmith.org is about.
+</description>
+<webMaster>webmasterATwordsmith.org</webMaster>
+<managingEditor>gargATwordsmith.org</managingEditor>
+<language>en-us</language>
+<ttl>1440</ttl>
+<item>
+<title>TestingWord</title>
+<link>http://wordsmith.org/words/adit.html</link>
+<description>
+Welcome to the adventure!
+</description>
+</item>
+</channel>
+</rss>
